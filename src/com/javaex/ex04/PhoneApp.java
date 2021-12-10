@@ -15,7 +15,7 @@ public class PhoneApp {
 		List<Person> pList = new ArrayList<Person>();
 		
 		//phoneDB.txt 접속
-		Reader fr = new FileReader("C:\\javastudy\\file\\PhoneDB_원본2.txt");
+		Reader fr = new FileReader("C:\\javastudy\\file\\PhoneDB.txt");
 		BufferedReader br = new BufferedReader(fr);
 		
 		while(true) {
